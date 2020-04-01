@@ -3,6 +3,7 @@ import { GlobalStateContext } from "../../context/GlobalState";
 import { FoodItem } from "./FoodItem/FoodItem";
 import Aux from "../../hoc/Aux";
 import uuid from "uuid/v1";
+import "./FoodList.scss";
 
 export const FoodList = () => {
 	const { foodsList } = useContext(GlobalStateContext);

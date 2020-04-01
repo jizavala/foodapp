@@ -1,0 +1,18 @@
+$breakpoint-iphone5-portrait: 320px;
+$breakpoint-iphone5-landscape: 568px;
+$breakpoint-nextgenscreen-portrait: 321px;
+$breakpoint-nextgenscreen-landscape: 569px;
+
+#foodItemList {
+	@media screen and (max-width: $breakpoint-iphone5-portrait) and (orientation: portrait) {
+		div.row {
+			font-size: 0.7em;
+		}
+	}
+
+	@media screen and (max-width: $breakpoint-iphone5-landscape) and (orientation: landscape) {
+		div.row {
+			font-size: 0.9em;
+		}
+	}
+}
